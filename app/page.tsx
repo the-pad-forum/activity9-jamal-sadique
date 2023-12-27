@@ -7,9 +7,9 @@ import Users from './components/Users/Users'
 const Home = () => {
   return (
     <>
-    <Albums />
-    <Posts />
-    <Users />
+      <Users />
+      <Posts />
+      <Albums />
     </>
   );
 }
