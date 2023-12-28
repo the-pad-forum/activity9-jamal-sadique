@@ -19,6 +19,7 @@ const Posts: FC = () => {
 
   return (
     <div>
+      <h2 className={styles.postHeader}>Posts</h2>
       {posts.map(post => (
         <div key={post.id} className={styles.post}>
           <h3>{post.title}</h3>

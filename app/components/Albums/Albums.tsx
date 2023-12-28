@@ -18,13 +18,15 @@ const Albums: FC = () => {
   }, []);
 
   return (
-    <div className={styles.gridContainer}>
-      {albums.map(album => (
-        <div key={album.id} className={styles.card}>
-          <h3>{album.title}</h3>
-        </div>
-      ))}
-    </div>
+    <div className={styles.albumContainer}>
+     <h2>Album</h2>
+      <div className={styles.gridContainer}>
+        {albums.map(album => (
+          <div key={album.id} className={styles.card}>
+            <h3>{album.title}</h3>
+          </div>
+        ))}
+      </div></div>
   );
 };
 

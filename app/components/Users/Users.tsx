@@ -23,6 +23,7 @@ const Users: FC = () => {
 
   return (
     <div className={styles.tableContainer}>
+      <h2>Users</h2>
       <table className={styles.table}>
         <thead>
           <tr>

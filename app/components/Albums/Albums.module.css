@@ -1,10 +1,25 @@
+.albumContainer {
+  margin: 0px 5rem 0px
+}
+
+.albumContainer h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   /* Additional styling */
+  margin-bottom: 1rem;
 }
 
 .card {
-  /* Styling for individual cards */
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
 }
