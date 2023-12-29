@@ -24,5 +24,7 @@
 }
 
 .table th {
-  background-color: #f2f2f2c7;
+  background: rgb(var(--foreground-rgb));
+  color: rgb(var(--background-rgb));
 }
+
